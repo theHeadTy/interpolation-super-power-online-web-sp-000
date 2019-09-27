@@ -11,5 +11,5 @@ def display_rainbow(colors)
   
 end
 
-colorz = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-display_rainbow(colorz)
+
+display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
