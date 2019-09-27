@@ -2,9 +2,7 @@
 
 
 def display_rainbow(colors)
-  
-  letters = ["R", "O", "Y", "G", "B", "I", "V"]
-  
+ 
   puts "R: #{colors[0]}, 
   O: #{colors[1]},
   Y: #{colors[2]},
@@ -17,4 +15,5 @@ def display_rainbow(colors)
   
 end
 
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+display_rainbow(colors)
