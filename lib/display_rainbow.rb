@@ -5,13 +5,13 @@ def display_rainbow(colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indig
   
   letters = ["R", "O", "Y", "G", "B", "I", "V"]
   
-  puts colors[0]
-  puts colors[1]
-  puts colors[2]
-  puts colors[3]
-  puts colors[4]
-  puts colors[5]
-  puts colors[6]
+  puts "#{letters[0]}: #{colors[0]}
+  puts letters[1]
+  puts letters[2]
+  puts letters[3]
+  puts letters[4]
+  puts letters[5]
+  puts letters[6]
   
   # "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n"
   
