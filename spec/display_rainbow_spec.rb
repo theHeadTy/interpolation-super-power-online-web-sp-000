@@ -22,11 +22,3 @@ describe '#display_rainbow' do
     expect { display_rainbow(colors) }.to output("R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n").to_stdout
   end
 end
-
-def display_rainbow(colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
-  
-  puts colors
-  
-  # "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n"
-  
-end
